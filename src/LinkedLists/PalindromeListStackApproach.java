@@ -56,7 +56,7 @@ public class PalindromeListStackApproach {
 		}
 		//remove every element of the stack and compare with the second half of the list
 		for(int i=0;i<size/2;++i){
-			if(stack.pop() != head.getElement())
+			if( stack.pop() != head.getElement())
 				return false;
 			else{
 				head = head.getNext();					
