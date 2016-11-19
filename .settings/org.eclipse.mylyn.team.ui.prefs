@@ -1,2 +1,2 @@
-commit.comment.template=${task.key}\: ${task.description} \r\n\r\nTask-Url\: ${task.url}\r\n\r\nsvn\:ignore\r\n.settings\r\n.project\r\n.classpath\r\ntarget
+commit.comment.template=${task.key}\: ${task.description} \r\n\r\nTask-Url\: ${task.url}
 eclipse.preferences.version=1
