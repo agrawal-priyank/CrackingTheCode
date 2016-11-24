@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * To create d number of linked lists of the tree having depth d with each list
  * containing the nodes at the same depth
  * 
- * Recursive implementation of Depth first search
+ * Recursive implementation of depth first search
  * 
  * Time complexity is O(log(n)) and Space complexity is O(n)
  * 
@@ -45,15 +45,15 @@ public class LinkedListsOfDepthsDFS {
 	}
 	
 	void createLevelLinkedList(TreeNode root, ArrayList<LinkedList<TreeNode>> lists, int level){
-		if(root == null)											//base case
-			return;													//do nothing
+		if(root == null)								//base case
+			return;										//do nothing
 		LinkedList<TreeNode> list = null;
-		if(lists.size() == level){									//level has not yet been explored
+		if(lists.size() == level){						//level has not yet been explored
 			list = new LinkedList<TreeNode>();
-			lists.add(list);										//add new level linked list to the array list of linked lists
+			lists.add(list);							//add new level linked list to the array list of linked lists
 		}
 		else{
-			list = lists.get(level);								//level has been explored so the linked lists of this level must already be present
+			list = lists.get(level);					//level has been explored so the linked lists of this level must already be present
 		}
 		list.add(root);
 		createLevelLinkedList(root.getLeftChild(), lists, level+1);	//same for the left child with a level more
@@ -62,7 +62,7 @@ public class LinkedListsOfDepthsDFS {
 	
 	ArrayList<LinkedList<TreeNode>> createArrayListOfLinkedList(TreeNode root){
 		ArrayList<LinkedList<TreeNode>> lists = new ArrayList<LinkedList<TreeNode>>();	//an array lists of linked lists consisting of tree nodes
-		createLevelLinkedList(root, lists, 0);											//call method from level 0 that has the root of the tree
+		createLevelLinkedList(root, lists, 0);			//call method from level 0 that has the root of the tree
 		return lists;
 	}
 
