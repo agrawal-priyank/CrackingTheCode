@@ -11,7 +11,7 @@ import java.util.LinkedList;
  * 
  * Recursive implementation of depth first search
  * 
- * Time complexity is O(log(n)) and Space complexity is O(n)
+ * Time complexity is O(n) and Space complexity is O(n)
  * 
  * Date: 11/23/2016
  */
