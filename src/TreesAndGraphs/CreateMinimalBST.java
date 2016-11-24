@@ -6,12 +6,11 @@ package TreesAndGraphs;
  * Given a sorted (increasing order) array create a binary search tree
  * with minimum height
  * 
- * Time complexity is O(n) Space complexity is O(n)
+ * Time complexity is O(n) and Space complexity is O(n)
  * 
  *  Date: 11/22/2016
  */
 public class CreateMinimalBST {
-
 	//nested node class of a binary tree
 	static class TreeNode {
 		private int value;
@@ -39,11 +38,7 @@ public class CreateMinimalBST {
 			this.rightChild = rightChild;
 		}
 	}
-
-	TreeNode createMinimalBST(int[] sortedArray) {
-		return createMinimalBST(sortedArray, 0, sortedArray.length - 1);
-	}
-
+	
 	TreeNode createMinimalBST(int[] array, int start, int end) {
 		if (end < start)
 			return null;
@@ -52,6 +47,10 @@ public class CreateMinimalBST {
 		node.setLeftChild(createMinimalBST(array, 0, mid - 1));		//make left sub-array the left child (sub-tree) of the parent node
 		node.setRightChild(createMinimalBST(array, mid + 1, end));	//make right sub-array the right child (sub-tree) of the parent node
 		return node;
+	}
+
+	TreeNode createMinimalBST(int[] sortedArray) {
+		return createMinimalBST(sortedArray, 0, sortedArray.length - 1);
 	}
 
 }
