@@ -51,7 +51,6 @@ public class LinkedListsOfDepthsBFS {
 			current.add(root);
 		while(current.size() > 0){
 			lists.add(current);						//add previous level which is the current list to the array list
-			current = new LinkedList<TreeNode>();
 			LinkedList<TreeNode> parents = current; //go to the next level
 			current = new LinkedList<TreeNode>();	//initialize the current list again
 			for(TreeNode parent : parents){
