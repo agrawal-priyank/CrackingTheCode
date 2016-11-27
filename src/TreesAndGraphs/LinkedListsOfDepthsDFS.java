@@ -16,33 +16,6 @@ import java.util.LinkedList;
  * Date: 11/23/2016
  */
 public class LinkedListsOfDepthsDFS {
-	//nested node class of a binary tree
-	static class TreeNode {
-		private int value;
-		private TreeNode leftChild;
-		private TreeNode rightChild;
-		public TreeNode(int value) {
-			this.value = value;
-		}
-		public int getValue() {
-			return value;
-		}
-		public void setValue(int value) {
-			this.value = value;
-		}
-		public TreeNode getLeftChild() {
-			return leftChild;
-		}
-		public void setLeftChild(TreeNode leftChild) {
-			this.leftChild = leftChild;
-		}
-		public TreeNode getRightChild() {
-			return rightChild;
-		}
-		public void setRightChild(TreeNode rightChild) {
-			this.rightChild = rightChild;
-		}
-	}
 	
 	void createLevelLinkedList(TreeNode root, ArrayList<LinkedList<TreeNode>> lists, int level){
 		if(root == null)								//base case
