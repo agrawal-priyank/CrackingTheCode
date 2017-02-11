@@ -8,7 +8,7 @@ package TreesAndGraphs;
  * 
  * Time complexity is O(n) and Space complexity is O(n)
  * 
- *  Date: 11/22/2016
+ * Date: 11/22/2016
  */
 public class CreateMinimalBST {
 	
