@@ -4,13 +4,12 @@ Author: Gayle Laakmann McDowell
 
 References: Cracking the Coding Interview Book
 
-The book has a host of programming problems which I have been solving and referring to the solutions and hints provided in the book. The 
-problems are related to following Data Structures and Abstract Data Types:
+Some of my code implementations of various programming problems mentioned in the book are:
 
-1. Arrays and Strings
-2. Linked Lists
-3. Stacks and Queues
-4. Trees and Graphs (Currently doing)
+1. [Arrays and Strings](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/ArraysAndStrings)
+2. [Linked Lists](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/LinkedLists)
+3. [Stacks and Queues](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/StacksAndQueues)
+4. [Trees and Graphs](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/TreesAndGraphs)
 
 # Environment
 
