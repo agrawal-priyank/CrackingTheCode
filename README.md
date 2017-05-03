@@ -16,7 +16,7 @@ Some of my code implementations of various programming problems mentioned in the
     8. [Unique String](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/ArraysAndStrings/UniqueString.java)
     9. [Zero Matrix](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/ArraysAndStrings/ZeroMatrix.java)
 
-2. [**Linked Lists**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/LinkedLists)    
+2. [**Linked Lists**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/LinkedLists)
     1. [Delete Middle Node](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/LinkedLists/DeleteMiddleNode.java)
     2. [Intersection List](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/LinkedLists/IntersectionList.java)
     3. [Loop Detection LinkedList](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/LinkedLists/LoopDetectionLinkedList.java)
@@ -43,14 +43,13 @@ Some of my code implementations of various programming problems mentioned in the
     7. [Stack Node Min](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/StacksAndQueues/StackNodeMin.java)
 
 4. [**Trees and Graphs**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/TreesAndGraphs)
-    Check Balanced
-    Check Balanced Efficient
-    Create Minimal BST
-    LinkedLists Of Depths BFS
-    LinkedLists Of Depths DFS
-    Successor
-    TreeNode
-
+    1. [Check Balanced](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/CheckBalanced.java)
+    2. [Check Balanced Efficient](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/CheckBalancedEfficient.java)
+    3. [Create Minimal BST](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/CreateMinimalBST.java)
+    4. [LinkedLists Of Depths BFS](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/LinkedListsOfDepthsBFS.java)
+    5. [LinkedLists Of Depths DFS](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/LinkedListsOfDepthsDFS.java)
+    6. [Successor](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/Successor.java)
+    7. [TreeNode](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/TreeNode.java)
 
 # Technologies
 Java
