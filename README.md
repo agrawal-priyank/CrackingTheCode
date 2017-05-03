@@ -43,6 +43,13 @@ Some of my code implementations of various programming problems mentioned in the
     7. [Stack Node Min](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/StacksAndQueues/StackNodeMin.java)
 
 4. [**Trees and Graphs**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/TreesAndGraphs)
+    Check Balanced
+    Check Balanced Efficient
+    Create Minimal BST
+    LinkedLists Of Depths BFS
+    LinkedLists Of Depths DFS
+    Successor
+    TreeNode
 
 
 # Technologies
