@@ -1,11 +1,8 @@
-# Cracking the Coding Interview
-References: Cracking the Coding Interview Book (Author: Gayle Laakmann McDowell)
+## Cracking the Coding Interview
+Author: Gayle Laakmann McDowell
 
-# Description
-Some of my code implementations of various programming problems mentioned in the book are:
-
-# Code Implementations
-1. [**Arrays and Strings**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/ArraysAndStrings)
+### Code
+#### [**Arrays and Strings**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/ArraysAndStrings)
     1. [Palindrome Permutation](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/ArraysAndStrings/PalindromePermutation.java)
     2. [Rotate Matrix](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/ArraysAndStrings/RotateMatrix.java)
     3. [String Compression](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/ArraysAndStrings/StringCompression.java)
@@ -16,7 +13,7 @@ Some of my code implementations of various programming problems mentioned in the
     8. [Unique String](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/ArraysAndStrings/UniqueString.java)
     9. [Zero Matrix](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/ArraysAndStrings/ZeroMatrix.java)
 
-2. [**Linked Lists**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/LinkedLists)
+#### [**Linked Lists**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/LinkedLists)
     1. [Delete Middle Node](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/LinkedLists/DeleteMiddleNode.java)
     2. [Intersection List](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/LinkedLists/IntersectionList.java)
     3. [Loop Detection LinkedList](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/LinkedLists/LoopDetectionLinkedList.java)
@@ -33,7 +30,7 @@ Some of my code implementations of various programming problems mentioned in the
     14. [Sum Lists](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/LinkedLists/SumLists.java)
     15. [Circularly LinkedList](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/LinkedLists/CircularlyLinkedList.java)
 
-3. [**Stacks and Queues**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/StacksAndQueues)
+#### [**Stacks and Queues**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/StacksAndQueues)
     1. [Animal](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/StacksAndQueues/Animal.java)
     2. [Fixed Multi Stack Array](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/StacksAndQueues/FixedMultiStackArray.java)
     3. [Queue Via Stacks](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/StacksAndQueues/QueueViaStacks.java)
@@ -42,7 +39,7 @@ Some of my code implementations of various programming problems mentioned in the
     6. [Stack Min](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/StacksAndQueues/StackMin.java)
     7. [Stack Node Min](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/StacksAndQueues/StackNodeMin.java)
 
-4. [**Trees and Graphs**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/TreesAndGraphs)
+#### [**Trees and Graphs**](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/TreesAndGraphs)
     1. [Check Balanced](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/CheckBalanced.java)
     2. [Check Balanced Efficient](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/CheckBalancedEfficient.java)
     3. [Create Minimal BST](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/CreateMinimalBST.java)
@@ -51,8 +48,5 @@ Some of my code implementations of various programming problems mentioned in the
     6. [Successor](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/Successor.java)
     7. [TreeNode](https://github.com/agrawal-priyank/cracking-the-coding-interview/blob/master/src/TreesAndGraphs/TreeNode.java)
 
-# Technologies
+# Programming Language
 Java
-
-# IDE
-Eclipse Neon
