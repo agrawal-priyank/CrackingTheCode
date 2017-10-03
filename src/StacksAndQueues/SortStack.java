@@ -2,17 +2,8 @@ package StacksAndQueues;
 
 import java.util.Stack;
 
-/**
- * @author Priyank Agrawal
- * 
- * Sort a Stack using only one other Stack
- * 
- * Date: 11/16/2016
- * 
- * Space Complexity is O(N) and Time Complexity is O(N^2)
- */
 public class SortStack {
-	
+
 	public static void main(String[] args){
 		Stack<Integer> stack = new Stack<>();
 		stack.push(10);

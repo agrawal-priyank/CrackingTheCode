@@ -1,12 +1,5 @@
 package StacksAndQueues;
 
-/**
- * @author Priyank Agrawal
- *
- * Implementing three fixed size Stacks with an Array
- * 
- * Date: 11/09/2016
- */
 public class FixedMultiStackArray {
 	private int numberOfStacks = 3;
 	private int stackCapacity;

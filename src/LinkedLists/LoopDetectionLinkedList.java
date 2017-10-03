@@ -4,14 +4,6 @@ import java.util.Scanner;
 
 import LinkedLists.CircularlyLinkedList.Node;
 
-/**
- * @author Priyank Agrawal
- * 
- * Date 08/24/2016
- * 
- * To detect loop in the Linked List and return corresponding node
- *
- */
 public class LoopDetectionLinkedList {
 
 	public static void main(String[] args){

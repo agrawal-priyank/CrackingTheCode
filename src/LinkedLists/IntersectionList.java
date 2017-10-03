@@ -2,17 +2,6 @@ package LinkedLists;
 
 import LinkedLists.SinglyLinkedList.Node;
 
-/**
- * @author Priyank Agrawal
- * 
- * Date 08/24/2016
- * 
- * To check whether two list intersect each other
- * 
- * Time complexity is O(A+B) where A and B are size of both lists
- * 
- * Space complexity is O(1)
- */
 public class IntersectionList {
 	
 	static class Result{

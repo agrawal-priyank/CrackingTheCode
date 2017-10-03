@@ -1,13 +1,7 @@
 package LinkedLists;
 
 import LinkedLists.SinglyLinkedList.Node;
-/* @author Priyank Agrawal
- * 
- * Date 08/17/2016
- * 
- * sum numbers present in linked lists in reverse order
- * 
- */
+
 public class SumLists {
 	
 	public static void main(String[] args){
@@ -71,7 +65,8 @@ public class SumLists {
 		resultNode.setElement(value%10);
 		
 		if(list1Node != null || list2Node != null){
-			Node<Integer> more = sumLists(list1Node == null ? null : list1Node.getNext(), list2Node == null ? null : list2Node.getNext(), value >=10 ? 1:0);
+			Node<Integer> more = sumLists(list1Node == null ? null : list1Node.getNext(),
+                    list2Node == null ? null : list2Node.getNext(), value >=10 ? 1:0);
 			resultNode.setNext(more);
 		}
 		

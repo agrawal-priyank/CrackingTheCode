@@ -76,7 +76,7 @@ public class SinglyLinkedList<E> { //generic framework as node can hold data of 
 			tail = null;
 		return answer;
 	}
-	/*//sample initialization
+
 	public static void main(String[] args){
 		SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
 		list.addFirst(1);
@@ -95,6 +95,6 @@ public class SinglyLinkedList<E> { //generic framework as node can hold data of 
 		System.out.println("Head node element: "+list.getHead().getElement());
 		System.out.println("Tail node element: "+list.getTail().getElement());
 		System.out.println("Linked list size: "+list.isEmpty());
-	}*/
+	}
 	
 }

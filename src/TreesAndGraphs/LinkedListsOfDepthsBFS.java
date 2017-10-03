@@ -3,18 +3,6 @@ package TreesAndGraphs;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-/**
- * @author Priyank Agrawal
- *
- * To create d number of linked lists of the tree having depth d with
- * each list containing the nodes at the same depth
- * 
- * Iterative implementation of breadth first search
- * 
- * Time complexity is O(n) and Space complexity is O(n)
- * 
- * Date: 11/23/2016
- */
 public class LinkedListsOfDepthsBFS {
 	
 	ArrayList<LinkedList<TreeNode>> createLevelLinkedList(TreeNode root){

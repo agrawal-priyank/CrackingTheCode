@@ -3,12 +3,7 @@ package LinkedLists;
 import java.util.Scanner;
 
 import LinkedLists.SinglyLinkedList.Node;
-/* @author Priyank Agrawal
- * 
- * Date 08/19/2016
- * 
- * Check if the input integer linked list is a palindrome using Reverse and Compare approach 
- */
+
 public class PalindromeList {
 	
 	public static void main(String[] args){

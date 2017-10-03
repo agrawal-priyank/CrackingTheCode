@@ -3,13 +3,6 @@ package StacksAndQueues;
 import java.util.ArrayList;
 import java.util.EmptyStackException;
 
-/**
- * @author Priyank Agrawal
- * 
- * Implementing a Stack of plates and each Stack in the Set of Stacks can only have a limited capacity of plates
- * 
- * Date: 11/17/2016
- */
 public class SetOfStacks {
 	ArrayList<Stack> stacks = new ArrayList<>();
 	public int capacity;

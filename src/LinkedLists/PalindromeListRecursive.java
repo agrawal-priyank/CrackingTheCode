@@ -4,15 +4,6 @@ import java.util.Scanner;
 
 import LinkedLists.SinglyLinkedList.Node;
 
-/**
- * @author Priyank Agrawal
- * 
- * Date 08/24/2016
- * 
- * Checking if a Linked List is Palindrome using Recursive approach
- * 
- * Time complexity is O(m*n)
- */
 public class PalindromeListRecursive {
 
 	public static class Result{

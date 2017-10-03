@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class StringPermutationSorting {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please enter any two strings: ");
 		String str1 = scan.nextLine();

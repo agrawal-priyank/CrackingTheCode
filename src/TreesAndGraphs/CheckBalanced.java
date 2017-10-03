@@ -1,15 +1,5 @@
 package TreesAndGraphs;
 
-/**
- * @author Priyank Agrawal
- * 
- * To check whether a binary tree is balanced or not where balanced means the height difference
- * between the left subtree and right subtree should not be more than one at any node
- * 
- * Time complexity is O(nlogn)
- * 
- * Date: 11/26/2016
- */
 public class CheckBalanced {
 	
 	/**

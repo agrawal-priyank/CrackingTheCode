@@ -2,14 +2,6 @@ package StacksAndQueues;
 
 import java.util.Stack;
 
-/**
- * @author Priyank Agrawal
- * 
- * Implementing a stack with minimum value stored in an additional stack
- *
- * Date: 11/10/2016
- */
-@SuppressWarnings("serial")
 public class StackMin extends Stack<Integer> {
 
 	Stack<Integer> stack;

@@ -58,7 +58,6 @@ public class StringOneAway {
 	}
 	//Solution 1 ends
 	
-	
 	//Solution 2 begins
 	static boolean oneEditAway2(String first, String second){
 		if(Math.abs(first.length() - second.length()) > 1){

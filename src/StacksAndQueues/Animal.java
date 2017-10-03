@@ -2,13 +2,6 @@ package StacksAndQueues;
 
 import java.util.LinkedList;
 
-/**
- * @author Priyank Agrawal
- * 
- * Animal shelter Queue implemented using Linked List
- * 
- * Date: 11/17/2016
- */
 public abstract class Animal {
 	private int order;
 	protected String name;

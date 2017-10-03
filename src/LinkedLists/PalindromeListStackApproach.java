@@ -4,12 +4,6 @@ import java.util.Scanner;
 import java.util.Stack;
 
 import LinkedLists.SinglyLinkedList.Node;
-/* @author Priyank Agrawal
- * 
- * Date 08/19/2016
- * 
- * Check if the input integer linked list is a palindrome using stack with iterative approach 
- */
 
 public class PalindromeListStackApproach {
 	

@@ -3,9 +3,7 @@ package LinkedLists;
 import java.util.Scanner;
 
 import LinkedLists.SinglyLinkedList.Node;
-//runner technique with no buffer
-//time complexity is O(n^2)
-//space complexity is O(1)
+
 public class RemoveDupsLinkedListRunner {
 	
 	public static void main(String[] args){

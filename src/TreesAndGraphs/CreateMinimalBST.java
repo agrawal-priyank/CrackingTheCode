@@ -1,15 +1,5 @@
 package TreesAndGraphs;
 
-/**
- * @author Priyank Agrawal
- * 
- * Given a sorted (increasing order) array create a binary search tree
- * with minimum height
- * 
- * Time complexity is O(n) and Space complexity is O(n)
- * 
- * Date: 11/22/2016
- */
 public class CreateMinimalBST {
 	
 	TreeNode createMinimalBST(int[] array, int start, int end) {

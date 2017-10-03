@@ -5,9 +5,7 @@ import java.util.Iterator;
 import java.util.Scanner;
 
 import LinkedLists.SinglyLinkedList.Node;
-//removing duplicates from a singly/singularly linked list with hash-set as a buffer
-//time complexity is O(n)
-//space complexity is O(n)
+
 public class RemoveDuplicatesLinkedLists {
 	
 	public static void main(String[] args){

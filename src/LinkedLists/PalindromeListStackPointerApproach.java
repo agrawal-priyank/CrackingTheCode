@@ -5,13 +5,6 @@ import java.util.Stack;
 
 import LinkedLists.SinglyLinkedList.Node;
 
-/**
- * @author Priyank Agrawal
- * 
- * Date 08/20/2016
- * 
- * Check whether a linked list is palindrome using Stack approach with the help of fast and slow pointer
- */
 public class PalindromeListStackPointerApproach {
 	
 	public static void main(String[] args){

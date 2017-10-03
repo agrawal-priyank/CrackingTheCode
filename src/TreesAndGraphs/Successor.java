@@ -1,14 +1,5 @@
 package TreesAndGraphs;
 
-/**
- * @author Priyank Agrawal
- *
- * To search for the next node of a given node n in the binary search tree
- * 
- * Time complexity is O(logn)
- * 
- * Date: 02/10/2017
- */
 public class Successor {
 
 	TreeNode inOrderSuccessor(TreeNode n) {

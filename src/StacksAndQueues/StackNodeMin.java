@@ -2,13 +2,6 @@ package StacksAndQueues;
 
 import java.util.Stack;
 
-/**
- * @author Priyank Agrawal
- * 
- * Implementing a stack with minimum value stored using Node approach
- *
- */
-@SuppressWarnings("serial")
 public class StackNodeMin extends Stack<NodeWithMin> {
 
 	public void push(int value) {

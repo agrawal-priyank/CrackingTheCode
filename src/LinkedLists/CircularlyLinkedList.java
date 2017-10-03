@@ -1,13 +1,5 @@
 package LinkedLists;
 
-/**
- * @author Priyank Agrawal
- * 
- * Date 08/22/2016
- * 
- * Implementation of Generic Circularly Linked List
- *
- */
 public class CircularlyLinkedList<E> {
 	
 	//nested node class

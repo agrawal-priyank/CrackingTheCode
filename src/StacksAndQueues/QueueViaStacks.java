@@ -2,13 +2,6 @@ package StacksAndQueues;
 
 import java.util.Stack;
 
-/**
- * @author Priyank Agrawal
- *
- * Implementing Queue with two Stacks
- * 
- * Date: 11/14/2016
- */
 public class QueueViaStacks<T> {
 	
 	private Stack<T> stack, stackReverse;
