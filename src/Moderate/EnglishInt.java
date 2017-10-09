@@ -4,12 +4,12 @@ import java.util.LinkedList;
 
 public class EnglishInt {
 
-    String[] smalls = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+    private String[] smalls = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
             "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen"};
-    String[] tens = {"", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
-    String[] bigs = {"", "Thousand", "Million", "Billion"};
-    String hundred = "Hundred";
-    String negative = "Negative";
+    private String[] tens = {"", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
+    private String[] bigs = {"", "Thousand", "Million", "Billion"};
+    private String hundred = "Hundred";
+    private String negative = "Negative";
 
     public static void main(String[] args){
         int num = 1256789;
@@ -38,7 +38,7 @@ public class EnglishInt {
         return listToString(parts);
     }
 
-    public String convertChunk(int num){
+    private String convertChunk(int num){
         LinkedList<String> parts = new LinkedList<String>();
 
         if(num >= 100){
@@ -61,7 +61,7 @@ public class EnglishInt {
         return listToString(parts);
     }
 
-    public String listToString(LinkedList<String> parts){
+    private String listToString(LinkedList<String> parts){
         StringBuilder sb = new StringBuilder();
         while(parts.size() > 1){
             sb.append(parts.remove());
