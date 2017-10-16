@@ -24,4 +24,20 @@ public class Trie {
         return root;
     }
 
+    public boolean contains(String prefix) {
+        return contains(prefix, false);
+    }
+
+    public boolean contains(String prefix, boolean exact) {
+        TrieNode lastNode = root;
+        int i;
+        for (i = 0; i < prefix.length(); i++) {
+            lastNode = lastNode.getChild(prefix.charAt(i));
+            if (lastNode == null) {
+                return false;
+            }
+        }
+        return !exact || lastNode.terminates();
+    }
+
 }
