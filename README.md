@@ -1,5 +1,5 @@
 ## Cracking the Coding Interview
-Author: Gayle Laakmann McDowell
+Reference: [Cracking the Coding Interview by Gayle Laakmann McDowell](http://www.crackingthecodinginterview.com/)
 
 ### Code
 #### [Arrays and Strings](https://github.com/agrawal-priyank/cracking-the-coding-interview/tree/master/src/ArraysAndStrings)
